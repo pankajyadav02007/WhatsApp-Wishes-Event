@@ -27,21 +27,21 @@ const MessagePage = () => {
         <div class="card">
           <div class="wrapper">
             <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg"
+              src="https://pnghq.com/wp-content/uploads/2023/02/durga-maa-png-8247.png"
               class="cover-image"
             />
           </div>
-          <img
-            src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+          {/* <img
+            src="https://th.bing.com/th/id/OIP.73vb6J2fD8oblvWRYGqgDQHaJQ?rs=1&pid=ImgDetMain"
             class="title"
-          />
+          /> */}
           <img
-            src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp"
+            src="https://th.bing.com/th/id/OIP.wNlAZDpeWZ-Ol5McoINaDAAAAA?rs=1&pid=ImgDetMain"
             class="character"
           />
         </div>
 
-        <a
+        {/* <a
           href="https://www.mythrillfiction.com/force-mage"
           alt="Mythrill"
           target="_blank"
@@ -49,20 +49,20 @@ const MessagePage = () => {
           <div class="card">
             <div class="wrapper">
               <img
-                src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg"
+                src="https://th.bing.com/th/id/OIP.73vb6J2fD8oblvWRYGqgDQHaJQ?rs=1&pid=ImgDetMain"
                 class="cover-image"
               />
             </div>
             <img
-              src="https://ggayane.github.io/css-experiments/cards/force_mage-title.png"
+              src=""
               class="title"
             />
             <img
-              src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp"
+              src=""
               class="character"
             />
           </div>
-        </a>
+        </a> */}
       </div>
 
       <div>
