@@ -13,12 +13,12 @@ const HomePage = () => {
 
   return (
     <>
-      <section className="flex justify-center items-center flex-col min-h-screen">
-        <h3>Please Click Image</h3>
+      <section className="flex justify-center items-center flex-col gap-5 min-h-screen text-2xl text-amber-50 ">
+        <h3 >Please Click Image</h3>
         <img
           src="https://wallpapercollection.net/wp-content/uploads/2018/04/Durga-Maa.gif"
           alt="Durga Mata With Lion"
-          className="h-72 w-72 object-contain"
+          className="h-72 w-72 object-contain shadow-2xl bg-blue-200"
           onClick={() => {
             navigate("deepak");
           }}
@@ -30,7 +30,7 @@ const HomePage = () => {
       >
         <input
           required
-          className="border outline-none focus:border-blue-300 px-2 py-1"
+          className="border outline-none focus:border-blue-300 px-2 py-1 text-amber-50"
           placeholder="Enter Your Name"
           name="msg"
           onChange={(e) => {

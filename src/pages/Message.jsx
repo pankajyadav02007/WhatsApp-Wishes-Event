@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 
 const MessagePage = () => {
-  const [yourNmae,setYourName] = useState ("");
+  const [yourName,setYourName] = useState ("");
   const params = useParams();
   const navigate = useNavigate();
 
-  const WhURL = `https://api.whatsapp.com/send?text= ${yourNmae}`;
+  const WhURL = `https://api.whatsapp.com/send?text= ${yourName} ${`https://whats-app-wishes-event-gey1rw4mo.vercel.app`}`;
 
   useEffect(() => {
     if (params.name.length < 2) {
